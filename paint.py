@@ -1,6 +1,3 @@
-# !/usr/bin/python
-# -*- coding: utf-8 -*-
-
 from sys import stdout
 from time import sleep
 
@@ -34,5 +31,6 @@ for i in JOKE:
 	
 	else:
 		print(Fore.GREEN + i, end="")
-		stdout.flush()
-		sleep(0.1)
+		
+	stdout.flush()
+	sleep(0.1)
