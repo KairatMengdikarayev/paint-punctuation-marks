@@ -23,13 +23,11 @@ JOKE = (
 )
 
 for i in JOKE:
-
     if i in PUNCTUATION_MARKS:
         print(Fore.RED + i, end="")
-    
     else:
         print(Fore.GREEN + i, end="")
 
     stdout.flush()
     sleep(0.1)
-
+    
