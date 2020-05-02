@@ -1,10 +1,9 @@
 from sys import stdout
 from time import sleep
 
-from colorama import init, Fore, Style
+from colorama import Fore, Style
 
 
-init()
 print(Fore.GREEN, Style.BRIGHT)
 
 PUNCTUATION_MARKS = (
